@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amuleto-purple: #3d2153;
+  --color-amuleto-gold: #c2bd68;
+  --color-amuleto-lilac: #d1c7d9;
+  --color-amuleto-pink: #eaa7b1;
+  --color-amuleto-cream: #fdf2f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-amuleto-cream);
+  color: #2d2d2d;
+  font-family: 'Helvetica Neue', sans-serif;
+}
